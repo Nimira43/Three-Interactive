@@ -1,5 +1,6 @@
 import * as THREE from 'three'
 
+const canvas = document.querySelector('canvas.webgl')
 const scene = new THREE.Scene()
 const camera = new THREE.PerspectiveCamera(
   75,
@@ -18,3 +19,6 @@ document.body.appendChild(renderer.domElement)
 
 const boxGeometry = new THREE.BoxGeometry(1, 1, 1)
 console.log(boxGeometry)
+
+const material = new THREE.MeshBasicMaterial({ color: 0xff4500 })
+console.log(material)

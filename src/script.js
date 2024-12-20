@@ -23,6 +23,8 @@ camera.position.z = 5
 function animate() {
   requestAnimationFrame(animate)
   renderer.render(scene, camera)
+  mesh.rotation.x += 0.01
+  mesh.rotation.y += 0.01
 }
 
 animate()

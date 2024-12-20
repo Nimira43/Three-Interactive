@@ -18,8 +18,11 @@ const mesh = new THREE.Mesh(boxGeometry, material)
 
 scene.add(mesh)
 camera.position.z = 5
-renderer.render(scene, camera)
+
 
 function animate() {
   requestAnimationFrame(animate)
+  renderer.render(scene, camera)
 }
+
+animate()

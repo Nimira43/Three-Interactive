@@ -15,3 +15,6 @@ console.log(renderer)
 
 renderer.setSize(innerWidth, innerHeight)
 document.body.appendChild(renderer.domElement)
+
+const boxGeometry = new THREE.BoxGeometry(1, 1, 1)
+console.log(boxGeometry)

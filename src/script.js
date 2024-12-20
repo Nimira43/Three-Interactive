@@ -22,3 +22,6 @@ console.log(boxGeometry)
 
 const material = new THREE.MeshBasicMaterial({ color: 0xff4500 })
 console.log(material)
+
+const mesh = new THREE.Mesh(boxGeometry, material)
+console.log(mesh)

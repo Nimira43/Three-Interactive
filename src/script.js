@@ -25,3 +25,6 @@ console.log(material)
 
 const mesh = new THREE.Mesh(boxGeometry, material)
 console.log(mesh)
+scene.add(mesh)
+
+renderer.render(scene, camera)
